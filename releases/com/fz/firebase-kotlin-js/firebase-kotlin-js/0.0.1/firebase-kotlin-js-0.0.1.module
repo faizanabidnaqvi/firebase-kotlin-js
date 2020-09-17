@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fz.firebase-kotlin-js",
+    "module": "firebase-kotlin-js",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "3uqqctsse5h3to2gxifxfezrfy"
+    }
+  },
+  "variants": [
+    {
+      "name": "js-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase-kotlin-js-0.0.1.jar",
+          "url": "firebase-kotlin-js-0.0.1.jar",
+          "size": 42787,
+          "sha512": "a38f65a0b0859f8ab7bc95639b9bc027ef774d196b88b0b8660d9287e246727abe94c014413c5c14ef25b1ef343c8beb6d84c1d447549a67f56cb3caa5913ae6",
+          "sha256": "5b00e1f910536225d062ff033720c7edcc9c6f7bfe6a2496d796050b018fefde",
+          "sha1": "a40f321d41eb228d80b87398d23298882622f3e4",
+          "md5": "f2a37cc6b45375a7cf2d72f21a7265e8"
+        }
+      ]
+    },
+    {
+      "name": "js-runtime",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.0.0-RC"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.0.0-RC"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase-kotlin-js-0.0.1.jar",
+          "url": "firebase-kotlin-js-0.0.1.jar",
+          "size": 42787,
+          "sha512": "a38f65a0b0859f8ab7bc95639b9bc027ef774d196b88b0b8660d9287e246727abe94c014413c5c14ef25b1ef343c8beb6d84c1d447549a67f56cb3caa5913ae6",
+          "sha256": "5b00e1f910536225d062ff033720c7edcc9c6f7bfe6a2496d796050b018fefde",
+          "sha1": "a40f321d41eb228d80b87398d23298882622f3e4",
+          "md5": "f2a37cc6b45375a7cf2d72f21a7265e8"
+        }
+      ]
+    },
+    {
+      "name": "js-jsCommonFakeApiElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      }
+    }
+  ]
+}
